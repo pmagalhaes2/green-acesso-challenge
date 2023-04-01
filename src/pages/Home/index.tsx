@@ -36,7 +36,7 @@ export default function Home() {
   const [pageNumber, setPageNumber] = useState(1);
 
   const mapItem = [];
-  for (let i = 1; i < 44; i++) mapItem.push(i);
+  for (let i = 1; i < 43; i++) mapItem.push(i);
 
   const navigate = useNavigate();
 
@@ -87,7 +87,7 @@ export default function Home() {
       <Pagination>
         {mapItem.map((item, index) => {
           return (
-            <button key={index} onClick={() => handlePage(index)}>
+            <button key={index} onClick={() => handlePage(item)}>
               {item}
             </button>
           );
