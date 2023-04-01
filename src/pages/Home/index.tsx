@@ -34,7 +34,6 @@ export default function Home() {
   const [search, setSearch] = useState("");
   const [filtered, setFiltered] = useState<IMainInfo[]>([]);
   const [pageNumber, setPageNumber] = useState(1);
-
   const mapItem = [];
   for (let i = 1; i < 43; i++) mapItem.push(i);
 

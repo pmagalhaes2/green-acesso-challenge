@@ -3,10 +3,9 @@ import styled from "styled-components";
 export const PaginationContainer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 0 2rem;
-  width: 100%;
-  gap: 0.3rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
 
   button {
     width: 2rem;
@@ -14,5 +13,9 @@ export const PaginationContainer = styled.div`
     border-radius: 5px;
     background-color: transparent;
     color: #ffffff;
+
+    :focus{
+      border: 3px solid #15CDCB;
+    }
   }
 `;
