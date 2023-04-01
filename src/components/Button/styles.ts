@@ -32,6 +32,13 @@ export const ButtonContainer = styled.button<IProps>`
   align-items: center;
   justify-content: center;
 
+  @media (max-width: 768px) {
+    margin: 1rem;
+    padding: 5px;
+    font-size: 0.7rem;
+    width: 50%;
+  }
+
   :hover {
     transform: translateY(-2px);
   }

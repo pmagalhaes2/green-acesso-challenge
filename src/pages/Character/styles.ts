@@ -11,6 +11,13 @@ export const CharacterDetailsCard = styled.div`
   justify-content: space-between;
   margin: 5rem auto;
   gap: 1rem;
+
+  @media (max-width: 768px) {
+    width: 80%;
+    height: 100%;
+    padding: 1rem 2rem;
+    gap: 1.5rem;
+  }
 `;
 
 export const TitleAndImageContainer = styled.div`
@@ -18,13 +25,28 @@ export const TitleAndImageContainer = styled.div`
   align-items: center;
   gap: 2rem;
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
   h1 {
     color: #ffffff;
+
+    @media (max-width: 768px) {
+      font-size: 1.4rem;
+    }
   }
 
   img {
     width: 12.5rem;
     border-radius: 50%;
+
+    @media (max-width: 768px) {
+      width: 75%;
+      background-size: contain;
+    }
   }
 `;
 
@@ -32,6 +54,10 @@ export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+  }
 
   p {
     color: #ffffff;
@@ -41,4 +67,4 @@ export const TextContainer = styled.div`
 export const ButtonContainer = styled.div`
   display: flex;
   justify-content: flex-end;
-`
+`;

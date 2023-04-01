@@ -8,8 +8,8 @@ export const Container = styled.div`
   padding: 2rem;
   width: 60%;
 
-  @media (max-width: 480px) {
-    padding: 3rem;
+  @media (max-width: 768px) {
+    padding: 0;
     width: 100%;
   }
 `;
@@ -17,7 +17,7 @@ export const Container = styled.div`
 export const ImageContent = styled.img`
   width: 60%;
 
-  @media (min-width: 425px) {
+  @media (max-width: 768px) {
     width: 100%;
   }
 `;

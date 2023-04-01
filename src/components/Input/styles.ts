@@ -10,4 +10,8 @@ export const InputContainer = styled.input`
   box-shadow: 0.625rem 0.625rem 1.875rem rgba(0, 0, 0, 0.06);
   border: none;
   border-radius: 10px;
+
+  @media (max-width: 768px) {
+    width: 80%;
+  }
 `;

@@ -7,6 +7,14 @@ export const PaginationContainer = styled.div`
   margin: 0 auto;
   width: 80%;
 
+  @media (max-width: 768px) {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    gap: 1rem;
+  }
+
   button {
     width: 2rem;
     height: 2rem;
@@ -14,8 +22,8 @@ export const PaginationContainer = styled.div`
     background-color: transparent;
     color: #ffffff;
 
-    :focus{
-      border: 3px solid #15CDCB;
+    :focus {
+      border: 3px solid #15cdcb;
     }
   }
 `;
