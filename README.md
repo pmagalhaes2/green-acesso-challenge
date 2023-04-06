@@ -2,7 +2,7 @@
 
 # Rick And Morty Wiki
 
-Hi! This is a project developed with the intention to practicing React.js and solving a challenge in a selection process.
+Hi! This is a project developed with the intention to practicing React.js and Typescript.
 
 Nice things that could be learned from this project:
 
